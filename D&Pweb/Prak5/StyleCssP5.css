@@ -1,161 +1,161 @@
-*{
-    margin :0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 #nav{
-    position : relative;
+    position : fixed;
     top :0;
     z-index: 1001;
 }
 
-.navbar{
-    background-image: linear-gradient(to right , #ffff, rgb(231,179,10));
+.navbar {
+  background-image: linear-gradient(to right, #ffff, rgb(231, 10, 65));
 }
 
-.navbar-brand{
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
+.navbar-brand {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.navbar-brand span{
-    font-weight: bolder;
-    color: black;
+.navbar-brand span {
+  font-weight: bolder;
+  color: black;
 }
 
-.navbar-nav li{
-    padding: 0 10px;
+.navbar-nav li {
+  padding: 0 10px;
 }
 
-.navbar-nav li{
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
+.navbar-nav li {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-#banner{
-    margin-top: 25px;
-    position: relative;
-    background-image: linear-gradient(to right ,#ffff , rgb(255,253,352));
+#banner {
+  margin-top: 25px;
+  position: relative;
+  background-image: linear-gradient(to right, #ffff, rgb(255, 253, 352));
 }
 
-.title{
-    font-weight: bolder;
-    margin-top: 25px;
+.title {
+  font-weight: bolder;
+  margin-top: 25px;
 }
 
-.ban-img{
-    position: relative;
-    z-index: 1;
+.ban-img {
+  position: relative;
+  z-index: 1;
 }
 
-.wave{
-    position: absolute;
-    bottom: -10px;
-    left: 0;
+.wave {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
 }
 
-#judul-packages{
-    margin-top: 75px;
-    color: #241c15;
-    font-family: Means web,Georgia, 'Times New Roman', serif;
-    font-size: 2.5rem;
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.03125rem;
+#judul-packages {
+  margin-top: 75px;
+  color: #241c15;
+  font-family: Means web, Georgia, "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.03125rem;
 }
 
-.foto{
-    margin-top: 25px;
-    position: relative;
-    background-image: linear-gradient(to right , #ffff , rgb(248,224,6));
+.foto {
+  margin-top: 25px;
+  position: relative;
+  background-image: linear-gradient(to right, #ffff, rgb(248, 224, 6));
 }
 
-.item{
-    transition: .5s ease-in-out;
+.item {
+  transition: 0.5s ease-in-out;
 }
 
-.lesson-wrapper{
-    height: 580px;
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #ffff;
-    text-align: center;
+.lesson-wrapper {
+  height: 580px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffff;
+  text-align: center;
 }
 
-#paket{
-   padding-top: 80px;
-   padding-bottom: 50px;
-   color: #5f5d60; 
+#paket {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
 }
 
-.heading h2{
-    font-weight: normal;
+.heading h2 {
+  font-weight: normal;
 }
 
-.lesson{
-    float: left;
-    width: 25%;
+.lesson {
+  float: left;
+  width: 25%;
 }
 
-.lesson-icon{
-    position: absolute;
+.lesson-icon {
+  position: absolute;
 }
 
-.lesson-icon p{
-    position: absolute;
-    top: 44%;
-    width: 100%;
-    color: white;
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
 }
 
-.btn_style{
-    border: 1px sloid #cecece;
-    border-radius: 3px;
-    padding: 3px 10px;
-    box-shadow: 2px 2px 2px rgba(100,98,98,0.4);
-    color: rgb(223, 192, 20);
-    background-color: black;
+.btn_style {
+  border: 1px sloid #cecece;
+  border-radius: 3px;
+  padding: 3px 10px;
+  box-shadow: 2px 2px 2px rgba(100, 98, 98, 0.4);
+  color: rgb(223, 192, 20);
+  background-color: black;
 }
 
-#galeri{
-    margin-top: 8px;
-    color: #241c15;
-    font-family: Means Web,Georgia, Times, 'Times New Roman' , serif;
-    font-size: 2.5rem;
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.03125rem;
+#galeri {
+  margin-top: 8px;
+  color: #241c15;
+  font-family: Means Web, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.03125rem;
 }
 
-.foto{
-    margin-top: 5px;
+.foto {
+  margin-top: 5px;
 }
 
-#kontak{
-    text-align: center;
-    margin-top: 60px;
-    color: #241c15;
-    font-family: Means Web,Georgia, Times, 'Times New Roman' , serif;
-    font-size: 2.5rem;
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.03125rem;
+#kontak {
+  text-align: center;
+  margin-top: 60px;
+  color: #241c15;
+  font-family: Means Web, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.03125rem;
 }
 
-.isi-kontak{
-    margin-top: 75px;
+.isi-kontak {
+  margin-top: 75px;
 }
 
-.card-body{
-    color: black;
+.card-body {
+  color: black;
 }
 
-footer{
-    margin-top: 40px;
-    padding-top: 20px;
-    margin-bottom: 0;
-    background-image: linear-gradient(to right, rgb(231,179,10,#ffff));
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  margin-bottom: 0;
+  background-image: linear-gradient(to right, rgb(231, 179, 10, #ffff));
 }
