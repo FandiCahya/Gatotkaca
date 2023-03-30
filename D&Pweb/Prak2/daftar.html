@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .main{
+            border: 1px solid black;
+            padding: 8px;
+            margin-top: 10px;
+            width: 50%;
+            align-items: center;
+        }
+        .daftar{
+            background-color:white;
+            position: absolute;
+            top: 0;
+            left: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <span class="daftar">Pendaftaran</span>
+    <form>
+        <br>
+        <label for="nama">Nama :</label>
+        <input type="text" placeholder="Nama">
+        <br>
+        <label for="username">Username :</label>
+        <input type="text" placeholder="Username">
+        <br>
+        <label for="password">Password :</label>
+        <input type="text" placeholder="Password">
+        <br>
+        <label for="email">Nama :</label>
+        <input type="text" placeholder="email">
+        <br>
+        <label for="ttl">Tanggal Lahir :</label>
+        <input type="date" >
+        <br>
+        <label for="jenkel">Jenis Kelamin</label>
+        <label for=""><input type="radio" name="Jenis_Kelamin" value="Laki -Laki">Laki - Laki</label>
+        <label for=""><input type="radio" name="Jenis_Kelamin" value="Perempuan">Perempuan</label>
+        <br>
+        <label for="alamat">Alamat</label>
+        <textarea name="alamat" id="alamat" cols="30" rows="3"></textarea>
+        <br>
+        <label for="Provinsi">Provinsi
+            <select name="provinsi" id="provinsi">
+                <option value="jawatimur">Jawa Timur</option>
+                <option value="jawatengah">Jawa Tengah</option>
+                <option value="jawabarat">Jawa Barat</option>
+                <option value="yogya">Yogyakarta</option>
+                <option value="banten">Banten</option>
+                <option value="Jakarta">Jakarta</option>
+            </select>
+        </label>
+        <br>
+        <label for="Kota">Kota
+            <select name="provinsi" id="provinsi">
+                <option value="jombang">Jombang</option>
+                <option value="jakarta">jakarta</option>
+                <option value="magetan">Magetan</option>
+                <option value="yogya">Yogyakarta</option>
+                <option value="banten">Banten</option>
+                <option value="kediri">Kediri</option>
+            </select>
+        </label>
+        <br>
+        <label for="kodepos">Kode Pos</label>
+        <input type="number" placeholder="Kodepos">
+        <br>
+    <button>Kirim</button>
+    </form>
+</div>
+    <a href="Netizen.html">Kembali</a>
+</body>
+</html>

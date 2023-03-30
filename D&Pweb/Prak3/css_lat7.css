@@ -1,0 +1,17 @@
+h1{
+    color: black;
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    color: red;
+    font-style: italic;
+    font-family: calibri;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    text-align: left;
+}

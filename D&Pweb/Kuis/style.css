@@ -1,0 +1,115 @@
+# container * {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: #abdbe3;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+#wrapper {
+  width: 850px;
+  margin: auto;
+}
+
+#header {
+  margin-bottom: 13px;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+#logo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+  font-size: 35px;
+}
+
+#menu {
+  float: left;
+  list-style: none;
+  margin-top: 20px;
+}
+
+#menu li {
+  display: inline;
+}
+
+#menu li a {
+  padding: 5px 10px;
+  border-right: 1px dashed #aeb59c;
+  text-decoration: none;
+  color: orangered;
+}
+
+#menu li a:hover {
+  padding: 5px 10px;
+  border-right: 1px dashed #aeb59c;
+  text-decoration: none;
+  color: black;
+}
+
+#menu li:last-child a {
+  border-right: none;
+}
+
+#gambar {
+  position: relative;
+}
+
+#gambar h1 a {
+  position: absolute;
+  bottom: 50px;
+  left: 8px;
+  font-weight: normal;
+
+  color: white;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  background-color: gray;
+  width: 850px;
+}
+
+#content {
+  overflow: hidden;
+  background: white;
+  margin: 20px 0;
+}
+
+#content h2 {
+  padding: 10px;
+}
+
+#content .keterangan {
+  width: 220px;
+  margin: 10px;
+  padding: 0 10px 0 0;
+  float: left;
+  background: yellow;
+}
+
+#content .keterangan:last-child {
+  background: yellow;
+}
+
+#footer {
+  border-top: 1px solid #aeb59c;
+  padding: 20px;
+  background: black;
+  margin-bottom: 10px;
+}
+
+#footer p {
+  float: none;
+  font: bold;
+  color: white;
+}
