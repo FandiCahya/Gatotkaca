@@ -69,15 +69,16 @@
 .foto {
   margin-top: 25px;
   position: relative;
-  background-image: linear-gradient(to right, #ffff, rgb(231, 10, 6));
+  background-image: linear-gradient(to right, #ffff, rgb(250, 249, 249));
 }
 
 .item {
   transition: 0.5s ease-in-out;
+  margin-bottom: 15px;
 }
 
 .lesson-wrapper {
-  height: 580px;
+  /* height: 580px; */
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
