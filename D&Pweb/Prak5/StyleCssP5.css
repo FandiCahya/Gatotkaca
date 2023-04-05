@@ -69,7 +69,7 @@
 .foto {
   margin-top: 25px;
   position: relative;
-  background-image: linear-gradient(to right, #ffff, rgb(248, 224, 6));
+  background-image: linear-gradient(to right, #ffff, rgb(231, 10, 6));
 }
 
 .item {
@@ -101,11 +101,11 @@
 }
 
 .lesson-icon {
-  position: absolute;
+  position: relative;
 }
 
 .lesson-icon p {
-  position: absolute;
+  position: relative;
   top: 44%;
   width: 100%;
   color: white;

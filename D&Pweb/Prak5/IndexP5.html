@@ -4,7 +4,7 @@
     <!--Required Meta Tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="StyleCssP5.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
@@ -60,13 +60,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#paket">Packages</a>
+                <a class="nav-link" href="#packages">Packages</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#gallery">Hotspital</a>
+                <a class="nav-link" href="#gallery">Fasilitas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#kontak">Disabled</a>
+                <a class="nav-link active" href="#kontak">Kontak</a>
               </li>
             </ul>
           </div>
@@ -78,8 +78,11 @@
           <div class="container">
             <div class="row">
               <div class="wel col-6">
-                <h4 class="title">Welcome</h4>
-                <p>Kami Siap Melayani</p>
+                <h4 class="title">Selamat Datang Di Rumah Sakit Panda</h4>
+                <p>
+                  Rumah Sakit Panda sudah berbasis IoT.Pilihan terbaik untuk
+                  perawatan kesehatan Anda dan keluarga Anda.
+                </p>
                 <a href="" class="btn btn-warning">Click here</a>
               </div>
 
@@ -97,63 +100,51 @@
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
-            fill="#5000ca"
-            fill-opacity="2"
-            d="M0,96L60,117.3C120,139,240,181,360,181.3C480,181,600,139,720,133.3C840,128,960,160,1080,186.7C1200,213,1320,235,1380,245.3L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+            fill="#e7008a"
+            fill-opacity="0.8"
+            d="M0,64L80,96C160,128,320,192,480,186.7C640,181,800,107,960,106.7C1120,107,1280,181,1360,218.7L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
           ></path>
         </svg>
       </section>
 
       <!--Packages-->
       <div class="lesson-wrapper">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h2 id="judul-packages">
-                Choose Your Packages, we'll give you the best
-              </h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="lesson col3">
-              <div class="lesson-icom">
-                <img src="assets/img/wedding.png" width="100%" height="100%" />
+        <div class="packages">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 id="judul-packages">Pilih Kelas Anda</h2>
               </div>
-              <p class="txt-contents">
-                Wedding packages provide you to capture the best moment of your
-                precius memory of life
-              </p>
-              <button type="button" class="btn_style">Book Now!</button>
             </div>
-            <div class="lesson col3">
-              <div class="lesson-icom">
-                <img src="assets/img/travelling.png" width="68%" height="60%" />
+            <div class="row">
+              <div class="lesson col-3">
+                <div class="lesson-icon">
+                  <img src="img/1.png" width="80%" height="80%" />
+                </div>
+                <p class="txt-contents">BPJS</p>
+                <button type="button" class="btn_style">Registrasi</button>
               </div>
-              <p class="txt-contents">
-                Who Love Travelling? I'm Sure you are one of them! Capture your
-                journey with us!
-              </p>
-              <button type="button" class="btn_style">Book Now!</button>
-            </div>
-            <div class="lesson col3">
-              <div class="lesson-icom">
-                <img src="assets/img/keluarga.png" width="68%" height="100%" />
+              <div class="lesson col-3">
+                <div class="lesson-icon">
+                  <img src="img/2.png" width="80%" height="80%" />
+                </div>
+                <p class="txt-contents">Reguler</p>
+                <button type="button" class="btn_style">Registrasi</button>
               </div>
-              <p class="txt-contents">
-                Family is home! Let your home to be framed by us! we surely will
-                do with love
-              </p>
-              <button type="button" class="btn_style">Book Now!</button>
-            </div>
-            <div class="lesson col3">
-              <div class="lesson-icom">
-                <img src="assets/img/cup.png" width="68%" height="100%" />
+              <div class="lesson col-3">
+                <div class="lesson-icon">
+                  <img src="img/3.png" width="80%" height="80%" />
+                </div>
+                <p class="txt-contents">VIP</p>
+                <button type="button" class="btn_style">Registrasi</button>
               </div>
-              <p class="txt-contents">
-                Share your product to your customer. Impress your customer
-                through our lens.
-              </p>
-              <button type="button" class="btn_style">Book Now!</button>
+              <div class="lesson col-3">
+                <div class="lesson-icon">
+                  <img src="img/4.png" width="80%" height="80%" />
+                </div>
+                <p class="txt-contents">VVIP</p>
+                <button type="button" class="btn_style">Registrasi</button>
+              </div>
             </div>
           </div>
         </div>
@@ -164,127 +155,63 @@
         <div id="gallery">
           <div class="row">
             <div class="col-12 text-center">
-              <h4 id="galeri">feel the moment,save the memories</h4>
+              <h4 id="galeri">Fasilitas Rumah Sakit Panda</h4>
             </div>
           </div>
 
           <div class="foto">
             <div class="row">
               <div class="item col-4">
-                <a
-                  href="assets/img/image1.jpg"
-                  class="fancybox"
-                  data-fancibox="gallery1"
-                >
-                  <img
-                    src="assets/img/image1.jpg"
-                    width="100%"
-                    height="100%"
-                    alt=""
+                <a href="img/rs1.jpg" class="fancybox" data-fancibox="gallery1">
+                  <img src="img/rs1.jpg" width="100%" height="100%" alt=""
+                /></a>
+              </div>
+              <div class="item col-4">
+                <a href="img/Rs2.jpg" class="fancybox" data-fancibox="gallery1">
+                  <img src="img/Rs2.jpg" width="100%" height="100%" alt=""
                 /></a>
               </div>
               <div class="item col-4">
                 <a
-                  href="assets/img/image10.jpg"
+                  href="img/rs3.jfif"
                   class="fancybox"
                   data-fancibox="gallery1"
                 >
-                  <img
-                    src="assets/img/image10.jpg"
-                    width="100%"
-                    height="100%"
-                    alt=""
+                  <img src="img/rs3.jfif" width="100%" height="100%" alt=""
+                /></a>
+              </div>
+              <div class="item col-4">
+                <a href="img/rs4.jpg" class="fancybox" data-fancibox="gallery1">
+                  <img src="img/rs4.jpg" width="100%" height="100%" alt=""
+                /></a>
+              </div>
+              <div class="item col-4">
+                <a href="img/rs5.jpg" class="fancybox" data-fancibox="gallery1">
+                  <img src="img/rs5.jpg" width="100%" height="100%" alt=""
+                /></a>
+              </div>
+              <div class="item col-4">
+                <a href="img/rs6.jpg" class="fancybox" data-fancibox="gallery1">
+                  <img src="img/rs6.jpg" width="100%" height="100%" alt=""
                 /></a>
               </div>
               <div class="item col-4">
                 <a
-                  href="assets/img/image3.jpg"
+                  href="img/rs7.jfif"
                   class="fancybox"
                   data-fancibox="gallery1"
                 >
-                  <img
-                    src="assets/img/image3.jpg"
-                    width="100%"
-                    height="100%"
-                    alt=""
+                  <img src="img/rs7.jfif" width="100%" height="100%" alt=""
                 /></a>
               </div>
               <div class="item col-4">
-                <a
-                  href="assets/img/image4.jpg"
-                  class="fancybox"
-                  data-fancibox="gallery1"
-                >
-                  <img
-                    src="assets/img/image4.jpg"
-                    width="100%"
-                    height="100%"
-                    alt=""
+                <a href="img/rs8.jpg" class="fancybox" data-fancibox="gallery1">
+                  <img src="img/rs8.jpg" width="100%" height="100%" alt=""
                 /></a>
               </div>
               <div class="item col-4">
-                <a
-                  href="assets/img/image5.jpg"
-                  class="fancybox"
-                  data-fancibox="gallery1"
-                >
-                  <img
-                    src="assets/img/image5.jpg"
-                    width="100%"
-                    height="100%"
-                    alt=""
-                /></a>
-              </div>
-              <div class="item col-4">
-                <a
-                  href="assets/img/image6.jpg"
-                  class="fancybox"
-                  data-fancibox="gallery1"
-                >
-                  <img
-                    src="assets/img/image6.jpg"
-                    width="100%"
-                    height="100%"
-                    alt=""
-                /></a>
-              </div>
-              <div class="item col-4">
-                <a
-                  href="assets/img/image7.jpg"
-                  class="fancybox"
-                  data-fancibox="gallery1"
-                >
-                  <img
-                    src="assets/img/image7.jpg"
-                    width="100%"
-                    height="100%"
-                    alt=""
-                /></a>
-              </div>
-              <div class="item col-4">
-                <a
-                  href="assets/img/image8.jpg"
-                  class="fancybox"
-                  data-fancibox="gallery1"
-                >
-                  <img
-                    src="assets/img/image8.jpg"
-                    width="100%"
-                    height="100%"
-                    alt=""
-                /></a>
-              </div>
-              <div class="item col-4">
-                <a
-                  href="assets/img/image9.jpg"
-                  class="fancybox"
-                  data-fancibox="gallery1"
-                >
-                  <img
-                    src="assets/img/image9.jpg"
-                    width="100%"
-                    height="100%"
-                    alt=""
+                <a href="img/rs9.jpg" class="fancybox" data-fancibox="gallery1">
+                  <img src="img/rs9.jpg" width="100%" height="100%" alt=""
                 /></a>
               </div>
             </div>
@@ -297,7 +224,7 @@
         <div class="row">
           <div class="col-12 text-center">
             <h4 id="kontak">
-              To have more information, please kindly hit us through below
+              Untuk Informasi lebih lengkap, Silahkan isi Form dibawah
             </h4>
           </div>
         </div>
@@ -310,10 +237,10 @@
                 <div class="card-body">
                   <h5 class="card-text">Address</h5>
                   <p class="card-text">
-                    Jl.Veteran No. 54 Kediri<br />
+                    Jl.Hasyim Asyari No. 54 Jombang<br />
                     Telp. : 0354 - 771122 / 081247700232<br />
 
-                    Email : canvasphotograpy@gmail.com
+                    Email : pandahotspital@gmail.com
                   </p>
                   <br />
 
@@ -321,8 +248,8 @@
                   <br />
                   <p>
                     Official Hour : <br />
-                    Monday - Saturday <br />
-                    7.30 - 16.00
+                    All day <br />
+                    24 Jam
                   </p>
                 </div>
               </div>
@@ -367,11 +294,11 @@
     <footer>
       <div class="row">
         <div class="col-12 text-center">
-          <img src="assets/img/twt.png" alt="" height="50px" width="50px" />
-          <img src="assets/img/ig.png" alt="" height="50px" width="50px" />
-          <img src="assets/img/pint.png" alt="" height="50px" width="50px" />
-          <img src="assets/img/fb.png" alt="" height="50px" width="50px" />
-          <p>Copyright 2021</p>
+          <img src="img/bpjs.png" alt="" height="50px" width="46px" />
+          <img src="img/jkn.png" alt="" height="50px" width="46px" />
+          <img src="img/kes.png" alt="" height="50px" width="46px" />
+          <img src="img/mui.png" alt="" height="50px" width="66px" />
+          <p>Copyright 2023</p>
         </div>
       </div>
     </footer>
