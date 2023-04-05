@@ -10,7 +10,7 @@
 }
 
 .navbar{
-    background-image: linear-gradient(to right , #ffff, rgb(231,179,10));
+    background-image: linear-gradient(to right , white,white,#abcdef,#abcdef, #abcdef);
 }
 
 .navbar-brand{
@@ -51,8 +51,8 @@
 }
 
 .wave{
-    position: absolute;
-    bottom: -10px;
+    position: relative;
+    bottom: 220px;
     left: 0;
 }
 
