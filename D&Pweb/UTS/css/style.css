@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --vanilla: #ceb9a6;
+  --shark: #313233;
+  --makara: #8a7e70;
+  --lemon-grass: #a1a595;
+  --pine-cone: #5d544e;
+  --willow-grove: #696e64;
+  --crail: #c24843;
+  --mid-gray: #63636c;
+  --manatee: #9a9ca4;
+  --text-color: #fff;
+
+  --big-font: 4.5rem;
+  --h2-font: 2.6rem;
+  --p-font: 1.1 rem;
+}
+
+#nav {
+  position: static;
+  top: 0;
+  z-index: 1001;
+}
+.navbar {
+  background-image: linear-gradient(to right, #313233, #313233);
+}
+
+.navbar-brand {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: var(--big-font);
+}
+.navbar-brand span {
+  font-weight: bolder;
+}
+.nav-item a {
+  color: var(--text-color);
+  font-size: var(--p-font);
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+.nav-item a:hover {
+  color: var(--crail);
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+  color: black;
+
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#banner {
+  margin-top: 0;
+  position: relative;
+  background-image: linear-gradient(to right, #8a7e70, #8a7e70);
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 25px;
+  color: #fff;
+}
+.isi {
+  color: #fff;
+  font-size: var(--p-font);
+  line-height: 1.8;
+  margin-bottom: 100px;
+}
+
+#judul-packages {
+  margin-top: 75px;
+  color: #ffffff;
+  font-family: Means web, Georgia, "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: var(--shark);
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+  margin-top: 50px;
+}
+.txt-contents {
+  font-weight: 600;
+  color: #fff;
+  padding-top: 40px;
+  margin-bottom: 15px;
+}
+.isit{
+  color: var(--text-color);
+  font-size: var(--p-font);
+  margin-top: 2em;
+}
+#galeri {
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: Means Web, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.lesson-wrapper-prices {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: var(--makara);
+  text-align: center;
+}
+.harga {
+  background-color: var(--shark);
+  height: 450px;
+  text-align: center;
+  text-decoration: none;
+  border: #c24843 13px solid;
+}
+.harga h2 {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+.harga h1 {
+  margin-top: 70px;
+  color: #fff;
+  font-weight: 900;
+  font-size: var(--big-font);
+}
+.harga p {
+  margin-top: 120px;
+  color: #fff;
+  font-weight: 700;
+  font-size: var(--p-font);
+}
+.lesson-wrapper-contact {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: var(--shark);
+  text-align: center;
+}
+#contact h1 {
+  padding-top: 50px;
+  color: #ffffff;
+  font-family: Means Web, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.medsos {
+  margin-bottom: 0;
+}
+.medsos img {
+  margin-top: 200px;
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  background-color: #000000;
+  text-align: center;
+}

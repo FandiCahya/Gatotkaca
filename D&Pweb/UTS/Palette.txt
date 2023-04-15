@@ -1,0 +1,36 @@
+/* CSS HEX */
+--vanilla: #ceb9a6;
+--shark: #313233;
+--makara: #8a7e70;
+--lemon-grass: #a1a595;
+--pine-cone: #5d544e;
+--willow-grove: #696e64;
+--crail: #c24843;
+--mid-gray: #63636c;
+--manatee: #9a9ca4;
+
+
+/* SCSS HEX */
+$vanilla: #ceb9a6;
+$shark: #313233;
+$makara: #8a7e70;
+$lemon-grass: #a1a595;
+$pine-cone: #5d544e;
+$willow-grove: #696e64;
+$crail: #c24843;
+$mid-gray: #63636c;
+$manatee: #9a9ca4;
+
+
+/* SCSS RGB */
+--vanilla: rgba(206,185,166,1);
+--shark: rgba(49,50,51,1);
+--makara: rgba(138,126,112,1);
+--lemon-grass: rgba(161,165,149,1);
+--pine-cone: rgba(93,84,78,1);
+--willow-grove: rgba(105,110,100,1);
+--crail: rgba(194,72,67,1);
+--mid-gray: rgba(99,99,108,1);
+--manatee: rgba(154,156,164,1);
+
+
