@@ -6,52 +6,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Alfi</title>
   <link rel="stylesheet" href="cssOn.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <style>
+    @media (min-width: 1400px) {
+      .container,
+      .container-lg,
+      .container-md,
+      .container-sm,
+      .container-xl,
+      .container-xxl {
+        max-width: 1800px;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <!-- Navbar -->
   <section id="nav">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar scroll</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Link
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Link</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid" style="padding: 0 3.6%;">
+        <a class="navbar-brand" href="#">Layanan Pengaduan Masyarakat</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link disabled">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
   </section>
 
   <!--Banner-->
@@ -59,36 +74,39 @@
     <div class="banner">
       <div class="container">
         <div class="row">
-          <div class="wel col-6">
+          <div class="wel col-lg-6 col-sm-12 col-md-6">
             <h4 class="title">Welcome</h4>
             <p>Kami Siap Melayani</p>
             <a href="" class="btn btn-info">Click here</a>
           </div>
 
-          <div class="col-6">
+          <div class="col-lg-6 col-sm-12 col-md-6">
             <img src="../../../Pictures/2.png" class="ban-img img-fluid" height="80%" width="80%" alt="" />
           </div>
         </div>
 
-    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#9ed8e3" fill-opacity="1" d="M0,0L48,42.7C96,85,192,171,288,202.7C384,235,480,213,576,181.3C672,149,768,107,864,106.7C960,107,1056,149,1152,160C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-    </svg>
+        
       </div>
     </div>
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#9ed8e3" fill-opacity="1"
+        d="M0,0L48,42.7C96,85,192,171,288,202.7C384,235,480,213,576,181.3C672,149,768,107,864,106.7C960,107,1056,149,1152,160C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
   </section>
 
   <!--Packages-->
   <div class="lesson-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-lg-12">
           <h2 id="judul-packages">
-            Choose Your Packages, we'll give you the best
+            Memberikan Pelayanan Terbaik
           </h2>
         </div>
       </div>
       <div class="row">
-        <div class="lesson col-3">
+        <div class="lesson col-lg-3 col-sm-12 col-md-6">
           <div class="lesson-icom">
             <img src="https://www.pngarts.com/files/1/Time-Waste-PNG-High-Quality-Image.png" height="150px" />
           </div>
@@ -98,9 +116,11 @@
           </p>
           <button type="button" class="btn_style">Book Now!</button>
         </div>
-        <div class="lesson col-3">
+        <div class="lesson col-lg-3 col-sm-12 col-md-6">
           <div class="lesson-icom">
-            <img src="https://png.pngtree.com/png-clipart/20230102/original/pngtree-quality-control-approved-icon-png-image_8855326.png"  height="150px%" />
+            <img
+              src="https://png.pngtree.com/png-clipart/20230102/original/pngtree-quality-control-approved-icon-png-image_8855326.png"
+              height="150px%" />
           </div>
           <p class="txt-contents">
             Who Love Travelling? I'm Sure you are one of them! Capture your
@@ -108,9 +128,11 @@
           </p>
           <button type="button" class="btn_style">Book Now!</button>
         </div>
-        <div class="lesson col-3">
+        <div class="lesson col-lg-3 col-sm-12 col-md-6">
           <div class="lesson-icom">
-            <img src="https://www.freepnglogos.com/uploads/logo-telepon-png/panduan-mengakses-layanan-konseling-kehamilan-tidak-27.png"  height="150px%" />
+            <img
+              src="https://www.freepnglogos.com/uploads/logo-telepon-png/panduan-mengakses-layanan-konseling-kehamilan-tidak-27.png"
+              height="150px%" />
           </div>
           <p class="txt-contents">
             Family is home! Let your home to be framed by us! we surely will
@@ -118,9 +140,11 @@
           </p>
           <button type="button" class="btn_style">Book Now!</button>
         </div>
-        <div class="lesson col-3">
+        <div class="lesson col-lg-3 col-sm-12 col-md-6">
           <div class="lesson-icom">
-            <img src="https://www.nicepng.com/png/full/355-3559949_employee-engagement-icon-employee-management-employee-value-proposition.png"  height="150px%" />
+            <img
+              src="https://www.nicepng.com/png/full/355-3559949_employee-engagement-icon-employee-management-employee-value-proposition.png"
+              height="150px%" />
           </div>
           <p class="txt-contents">
             Share your product to your customer. Impress your customer
@@ -136,48 +160,48 @@
   <div class="container">
     <div id="gallery">
       <div class="row">
-        <div class="col-12 text-center">
-          <h4 id="galeri">feel the moment,save the memories</h4>
+        <div class="col-lg-12 text-center">
+          <h4 id="galeri">Dokumentasi Layanan Pengaduan Masyarakat</h4>
         </div>
       </div>
 
       <div class="foto">
         <div class="row">
-          <div class="item col-4">
-            <a href="assets/img/image1.jpg" class="fancybox" data-fancibox="gallery1">
-              <img src="assets/img/image1.jpg" width="100%" height="100%" alt="" /></a>
-          </div>
-          <div class="item col-4">
-            <a href="assets/img/image10.jpg" class="fancybox" data-fancibox="gallery1">
-              <img src="assets/img/image10.jpg" width="100%" height="100%" alt="" /></a>
-          </div>
-          <div class="item col-4">
-            <a href="assets/img/image3.jpg" class="fancybox" data-fancibox="gallery1">
-              <img src="assets/img/image3.jpg" width="100%" height="100%" alt="" /></a>
-          </div>
-          <div class="item col-4">
-            <a href="assets/img/image4.jpg" class="fancybox" data-fancibox="gallery1">
-              <img src="assets/img/image4.jpg" width="100%" height="100%" alt="" /></a>
-          </div>
-          <div class="item col-4">
-            <a href="assets/img/image5.jpg" class="fancybox" data-fancibox="gallery1">
-              <img src="assets/img/image5.jpg" width="100%" height="100%" alt="" /></a>
-          </div>
-          <div class="item col-4">
-            <a href="assets/img/image6.jpg" class="fancybox" data-fancibox="gallery1">
-              <img src="assets/img/image6.jpg" width="100%" height="100%" alt="" /></a>
-          </div>
-          <div class="item col-4">
-            <a href="assets/img/image7.jpg" class="fancybox" data-fancibox="gallery1">
-              <img src="assets/img/image7.jpg" width="100%" height="100%" alt="" /></a>
-          </div>
-          <div class="item col-4">
+          <div class="item col-lg-4 col-sm-12 col-md-4 mb-3">
             <a href="assets/img/image8.jpg" class="fancybox" data-fancibox="gallery1">
-              <img src="assets/img/image8.jpg" width="100%" height="100%" alt="" /></a>
+              <img src="https://radarbone.fajar.co.id/wp-content/uploads/2022/08/IMG-20220803-WA0028.jpg" width="100%" height="100%" alt="" /></a>
           </div>
-          <div class="item col-4">
+          <div class="item col-lg-4 col-sm-12 col-md-4 mb-3">
+            <a href="assets/img/image5.jpg" class="fancybox" data-fancibox="gallery1">
+              <img src="https://anri.go.id/storage/pages/139944502-9mb7lm.png" width="100%" height="100%" alt="" /></a>
+          </div>
+          <div class="item col-lg-4 col-sm-12 col-md-4 mb-3">
             <a href="assets/img/image9.jpg" class="fancybox" data-fancibox="gallery1">
-              <img src="assets/img/image9.jpg" width="100%" height="100%" alt="" /></a>
+              <img src="https://utara.jakarta.go.id/asset/foto_berita/posko_pengaduan.jpg" width="100%" height="100%" alt="" /></a>
+          </div>
+          <div class="item col-lg-4 col-sm-12 col-md-4 mb-3">
+            <a href="assets/img/image10.jpg" class="fancybox" data-fancibox="gallery1">
+              <img src="https://sumut.bpk.go.id//wp-content/uploads/2017/09/Chart-Pengaduan-Copy.jpg" width="100%" height="100%" alt="" /></a>
+          </div>
+          <div class="item col-lg-4 col-sm-12 col-md-4 mb-3">
+            <a href="assets/img/image7.jpg" class="fancybox" data-fancibox="gallery1">
+              <img src="https://surga.kedirikota.go.id/assets/new/img/ikon-lp.svg" width="100%" height="100%" alt="" /></a>
+          </div>
+          <div class="item col-lg-4 col-sm-12 col-md-4 mb-3">
+            <a href="assets/img/image3.jpg" class="fancybox" data-fancibox="gallery1">
+              <img src="https://1.bp.blogspot.com/-_m5T0wVXs28/YRjdha2ZXuI/AAAAAAAAAVg/3BSsSBkCAbsb4se--IIJdvssI2HGWgdNQCLcBGAsYHQ/s682/SOP%2BPENGADUAN%2BJPG.JPG" width="100%" height="100%" alt="" /></a>
+          </div>
+          <div class="item col-lg-4 col-sm-12 col-md-4 mb-3">
+            <a href="assets/img/image4.jpg" class="fancybox" data-fancibox="gallery1">
+              <img src="https://wandercom.id/wp-content/uploads/2020/03/000_WanLapor_Front_Top.jpg" width="100%" height="100%" alt="" /></a>
+          </div>
+          <div class="item col-lg-4 col-sm-12 col-md-4 mb-3">
+            <a href="assets/img/image6.jpg" class="fancybox" data-fancibox="gallery1">
+              <img src="https://dissos.kapuaskab.go.id/wp-content/uploads/2022/08/Chart-disposition.png" width="100%" height="100%" alt="" /></a>
+          </div>
+          <div class="item col-lg-4 col-sm-12 col-md-4 mb-3">
+            <a href="assets/img/image1.jpg" class="fancybox" data-fancibox="gallery1">
+              <img src="https://inspektorat.kulonprogokab.go.id/files/news/normal/3462f74ebbc68763b19a89a3c425d5c3.png" width="100%" height="100%" alt="" /></a>
           </div>
         </div>
       </div>
@@ -187,9 +211,9 @@
   <!--Bagian Contuct us-->
   <div class="container pt-5">
     <div class="row">
-      <div class="col-12 text-center">
+      <div class="col-lg-12 text-center">
         <h4 id="kontak">
-          To have more information, please kindly hit us through below
+          Untuk Informasi Tambahan, Bisa Mengisi Form di Bawah
         </h4>
       </div>
     </div>
@@ -197,7 +221,7 @@
     <div class="isi-kontak">
       <div class="row">
         <!--Bagian kontak kiri-->
-        <div class="kiri col-3">
+        <div class="kiri col-lg-3 col-sm-12 col-md-6">
           <div class="card mb-5">
             <div class="card-body">
               <h5 class="card-text">Address</h5>
@@ -220,7 +244,7 @@
           </div>
         </div>
         <!--Bagian kontak kanan-->
-        <div class="kanan offsite-1 col-8">
+        <div class="kanan offsite-lg-1 col-lg-8 col-sm-12 col-md-6">
           <div class="card mb-5">
             <div class="card-body">
               <form>
@@ -250,12 +274,12 @@
   <!--footer-->
   <footer>
     <div class="row">
-      <div class="col-12 text-center">
-        <img src="assets/img/twt.png" alt="" height="50px" width="50px" />
-        <img src="assets/img/ig.png" alt="" height="50px" width="50px" />
-        <img src="assets/img/pint.png" alt="" height="50px" width="50px" />
-        <img src="assets/img/fb.png" alt="" height="50px" width="50px" />
-        <p>Copyright 2021</p>
+      <div class="col-lg-12 text-center">
+        <img src="https://kedirikab.go.id/uploads/logo-pemkab-official.svg" alt="" height="50px" width="50px" />
+        <img src="https://seeklogo.com/images/J/jawa-timur-logo-24818906D1-seeklogo.com.png" alt="" height="50px" width="50px" />
+        <img src="https://www.its.ac.id/wp-content/uploads/2021/10/logo-kominfo-transparent.png" alt="" height="50px" width="50px" />
+        <!-- <img src="assets/img/fb.png" alt="" height="50px" width="50px" /> -->
+        <p class="mt-2">Copyright 2023</p>
       </div>
     </div>
   </footer>
