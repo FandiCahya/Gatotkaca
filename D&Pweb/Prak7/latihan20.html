@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Selektor Kelas </title>
+        <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function() {
+            $("button").click(function() {
+            $("div").animate({left:'1000px'}, 5000, "swing");
+            });
+            });
+        </script>
+    </head>
+    <body>
+       <button>Start</button>
+       <div style="background: blue; height: 100px; width: 100px; position: relative;"></div>
+    </body>
+</html>

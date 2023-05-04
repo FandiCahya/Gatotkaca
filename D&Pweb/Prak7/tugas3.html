@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title>Contoh Penggunaan  While</title>
+    </head>
+    <body>
+    <script lang="javascript" >
+    var pilih = parseFloat(prompt("Pilih salah satu\n1.Luas Lingkaran\n2.Luas Persegi Panjang\n3.Luas Segitiga"));
+
+        switch(pilih){
+            case 1:
+                var pi=22/7;
+                var r=7;
+                var ll=pi*r*r;
+                document.write(ll);
+            break;
+            case 2:
+                var p =10;
+                var l=4;
+                var lp = p*l;
+                document.write(lp);
+            break;
+            case 3:
+                var a=5;
+                var t=6;
+                var ls=1/2*a*t;
+                document.write(ls);
+            break;
+            default:
+                document.write("Pilihan Anda Tidak Ada");
+            break;
+        }
+    </script>
+</body>
+</html>

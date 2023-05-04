@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title>Contoh Penggunaan  While</title>
+    </head>
+    <body>
+    <script lang="javascript" >
+        var sekarang = new Date();
+        var kodehari = sekarang.getDay();
+        var hari;
+
+        switch(kodehari){
+            case 0:
+                hari="Minggu";
+            break;
+            case 1:
+                hari="Senin";
+            break;
+            case 2:
+                hari="Selasa";
+            break;
+            case 3:
+                hari="Rabu";
+            break;
+            case 4:
+                hari="Kamis";
+            break;
+            case 5:
+                hari="Jum'at";
+            break;
+            case 6:
+                hari="Sabtu";
+            break;
+        }
+        document.write("Hari Ini "+hari);
+    </script>
+</body>
+</html>

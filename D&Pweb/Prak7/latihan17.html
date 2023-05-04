@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h2>JavaScript Array Sort</h2>
+
+        <p>Method sort() merupakan method pada array untuk mengurutkan data</p>
+        <button onclick="myFunction()">Klik</button>
+
+        <p id="demo"></p>
+        
+        <script>
+           var merk = ["Honda", "Wuling", "Toyota", "BMW", "Suzuki"];
+           document.getElementById("demo").innerHTML = merk;
+
+           function myFunction() {
+            merk.sort();
+            document.getElementById("demo").innerHTML = merk;
+           }
+        </script>
+    </body>
+</html>
